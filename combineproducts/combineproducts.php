@@ -24,7 +24,7 @@
 *  International Registered Trademark & Property of PrestaShop SA
 */
 if (!defined('_PS_VERSION_'))
-  exit;
+	exit;
 class combineproducts extends Module
 {
 	private $_html = '';
@@ -34,7 +34,7 @@ class combineproducts extends Module
 		$this->name = 'combineproducts';
 		$this->tab = 'front_office_features';
 		$this->version = '01.0';
-		$this->author = 'Faiz Khan';
+		$this->author = 'Better Source';
 		$this->need_instance = 0;
 		parent::__construct();
 		$this->displayName = $this->l('Combine products.');
